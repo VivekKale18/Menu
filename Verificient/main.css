@@ -1,0 +1,93 @@
+
+body
+{
+    background-color: lightgray;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+
+.card-body ul li{
+    position: relative;
+    width: 100%;
+    list-style: none;
+}
+.card-body ul li a:hover{
+    background: rgb(240, 252, 18);
+}
+.card-body ul li a{
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    color: rgb(201, 79, 79);
+    top: 380px;
+}
+.card-body ul li a .icon ion-icon{
+    font-size: 1cm;
+}
+
+
+.head{
+    width: 60%;
+    height: 35px;
+    position: relative;
+    left: 120px;
+    top: 30px;
+    background-color: white;
+}
+.head ion-icon{
+    font-size: 0.8cm;
+    position: absolute;
+    top: 2px;
+    left: 6px;
+    color: rgb(34, 0, 255);
+    display: flex;
+    cursor: pointer;
+}
+.l1{
+    position: absolute;
+    left: 50px;
+    top: 9px;
+}
+.l2{
+    position: absolute;
+    left:300px;
+    top: 9px;
+}
+.b1{
+    position:absolute;
+    left: 750px;
+    top: 8.5px;
+    color: blue;
+    border-color: blue;
+    background-color: white;
+    cursor: pointer;
+}
+.identity{
+    position: absolute;
+    left: 1100px;
+    background-color: white;
+    top: 10px;
+    height: 100%;
+    width: 425px;
+}
+.bal1{
+    position: relative;
+    left: 120px;
+    top: 50px;
+    width: 410px;
+    height: 100px;
+    background-color: white;
+}
+.bal2{
+    position: absolute;
+    left: 620px;
+    top: 93.8px;
+    height: 100px;
+    width: 410px;
+    background-color: white;
+}
+
