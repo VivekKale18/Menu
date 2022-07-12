@@ -1,0 +1,28 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background-color: gray;
+}
+.login-form{
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.login-form h1{
+    font-size: 35px;
+    text-align: center;
+}
+.login-form p{
+    font-size: 20px;
+}
+.login-form input{
+    font-size: 16px;
+    border-radius: 5px;
+}
+.login-form button{
+    font-size: 15px;
+    font-weight: bold;
+}
